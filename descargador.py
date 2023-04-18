@@ -11,6 +11,7 @@ musical = input("¿Es un vídeo de música? [y/n]: ")
 if musical == "y":
     audio = yt.streams.get_audio_only()
     pais = input("Alemán, griego, ruso: [a/g/r]: ")
+    print("Imprimiendo el vídeo: ", yt.title)
     if pais == "g":
         audio.download("/home/laptop/Música/Griega")
     elif pais == "a":
