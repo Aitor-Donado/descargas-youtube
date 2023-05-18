@@ -4,7 +4,7 @@ direccion = input("Escribe la dirección del vídeo: ")
 
 yt = YouTube(direccion)
 
-print(yt.title)
+#print(yt.title)
 
 musical = input("¿Es un vídeo de música? [y/n]: ")
 
